@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: black;
+}
+
+#forms{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 170px auto 0;
+    text-align: center;
+}
+
+#forms label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: green;
+}
+
+#forms #email, #forms #password{
+    height: 25px;
+    margin: 15px 0;
+    padding: 0 10px;
+
+    background-color: black;
+    border: white 1px solid;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+
+#forms #submit{
+    width: 120px;
+    height: 30px;
+    margin: 20px auto 0;
+
+    background-color: black;
+    border: white 1px solid;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: green;
+
+    cursor: pointer;
+}
+
+#menu .menu-item{
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#menu .menu-item .link{
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+}
+
+#btn-menu{
+    width: 10%;
+    margin: 100px auto 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#btn-menu .btn{
+    padding: 10px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 100px;
+
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+
+    cursor: pointer;
+}
+
+#btn-close{
+    display: none;
+}
+
+
+/*
+
+    :disabled	Selects input elements with the "disabled" attribute specified
+    :invalid	Selects input elements with invalid values
+    :optional	Selects input elements with no "required" attribute specified
+    :required	Selects input elements with the "required" attribute specified
+    :valid	    Selects input elements with valid values
+
+*/
